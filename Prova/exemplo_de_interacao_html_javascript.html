@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exemplo de interação entre JS e HTML</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p>Exemplo de interação entre JS e HTML</p>
+
+	<p id="textoExemplo">qualquer texto</p>
+	<p id="textoExemplo2">qualquer texto 2</p>
+
+	<button onclick="mostrarMensagem('fique em casa')">Clique aqui
+	</button>
+
+	<script>
+		function mostrarMensagem(texto){
+			window.alert(texto);
+			document.getElementById("textoExemplo").innerHTML = texto;
+			document.getElementById("textoExemplo2").innerHTML = #estudeemcasa;
+		}
+		
+	</script>
+</body>
+</html>

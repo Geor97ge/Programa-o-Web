@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	     <title>Cadastro de Auxílio Emergencial</title>
+        <!--importando o Estilo-->
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <!--importando o JavaScript-->
+        <script src="javascript.js"></script>
+</head>
+<table align="center" border="1px" width="800">
+			
+			<tr>
+				<td class="celula"><img src="imagens/logo.jpg"></td>
+				<th id="titulo">Cadastro de auxílio emergencial</th>
+			</tr>
+
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+
+			<tr>
+				<th id="nome"><span>Nome</span></th>
+				<th><input class="item-formulario" type="text" id="campoNome" name="campoNome" /></th>
+			</tr>
+
+			<tr>
+				<th id="cpf"><span>CPF</span></th>
+				<th><input class="item-formulario" type="text" id="campoCpf" name="campoCpf" /></th>
+			</tr>
+
+			<tr>
+				<th id="contato"><span>Contato</span></th>
+				<th><input class="item-formulario" type="text" id="campoContato" name="campoContato" /></th>
+			</tr>
+
+			<tr>
+				<th id="endereco"><span>Endereço</span></th>
+				<th><input class="item-formulario" type="text" id="campoEndereco" name="campoEndereco" /></th>
+			</tr>
+
+			<tr>
+				<th id="renda"><span>Renda</span></th>
+				<th><input class="item-formulario" type="text" id="campoRenda" name="campoRenda" /></th>
+			</tr>
+
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+
+			<tr>
+				<th colspan="3">
+					<input type="button" id="btEnviar" 
+           				value="Enviar" 
+            			onclick="validarCampos()"/>
+            	</th>
+			</tr>
+
+
+		</table>
+
+
+    </body>
+</html>

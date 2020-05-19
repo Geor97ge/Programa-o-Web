@@ -1,0 +1,67 @@
+/*
+    Programação Web
+    Prof. Orlewilson Maia
+    Aluno (a): seu nome (digite seu nome:))
+    Data: 30/04/2020
+    Descrição: Estilos que serão aplicados na página 
+               para cadastro de informações.
+*/
+
+span {
+    font-family: Arial;
+    font-style: normal;
+}
+
+img{
+    text-align: center;
+    width: 150px;
+    height: 100px;
+}
+
+.celula{
+    width: 150px;
+}
+
+#titulo {
+    text-align: center;
+    font-family: Times New Roman;
+    font-size: 18px;
+    color: blue;
+}
+
+.item-formulario {
+    margin-left: -520px;
+    font-size: 15px;
+    width: 100px;
+    color: gray;
+}
+
+#nome {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+
+#cpf {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+
+#contato {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+
+#endereco {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+
+#renda {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
